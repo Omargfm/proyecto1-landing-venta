@@ -1,7 +1,7 @@
 <h1>Paradise</h1>
 Este proyecto es parte del proceso de aprendizaje en el bootcamp de la Universidad del desarrollo, aun falta mucho camino por recorrer..!
 <br>
-Tiene pequeños errores que estaré corrigiendo a medida que voy mejorando mis habilidades, la práctica es fundamental.
+Tiene pequeños errores que estaré corrigiendo a medida que voy mejorando mis habilidades. ( La práctica es fundamental).
 
 ## github:
 En el siguiente link puedes acceder directamente a la pagina: https://omargfm.github.io/bootcamp-primerproyecto/
