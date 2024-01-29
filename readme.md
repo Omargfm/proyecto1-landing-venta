@@ -21,8 +21,6 @@ Es muy sencilla la página, tiene pocas secciones para que sea amigable y muy fa
 
 * Omar Fuentes: https://www.linkedin.com/in/omar-fuentes-35a061259/
 
+* ## Prototipado simple a mano:
 
-
-
-
-
+* [prototipado simple.pdf](https://github.com/Omargfm/bootcamp-primerproyecto/files/14076767/prototipado.simple.pdf)
