@@ -4,7 +4,7 @@ Este proyecto es parte del proceso de aprendizaje en el bootcamp de la Universid
 Tiene pequeños errores que estaré corrigiendo a medida que voy mejorando mis habilidades. ( La práctica es fundamental).
 
 ## github:
-En el siguiente link puedes acceder directamente a la pagina: https://omargfm.github.io/bootcamp-primerproyecto/
+En el siguiente link puedes acceder directamente a la pagina: https://omargfm.github.io/proyecto1-landing-venta/
 
 ## Tecnologías:
 
