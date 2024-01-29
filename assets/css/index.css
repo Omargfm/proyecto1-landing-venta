@@ -1,0 +1,268 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffffd9;
+  color: #000000;
+}
+
+img {
+  max-width: 50px;
+  height: auto;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  display: flex;
+  margin-right: 35px;
+  color: #413fc4;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  transition: 1.5sg;
+}
+
+.hamburguesa {
+  display: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.jumbotron {
+  background: url(../img/1.jpg) center/cover no-repeat;
+  background-size: 100%;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.jumbotron h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+
+}
+
+.jumbotron p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.email-input {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 0%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.item {
+  text-align: center;
+  width: 200px; /* Establece el ancho deseado para cada elemento */
+  margin: 10px;
+}
+
+.item img {
+  max-width: 150%;
+  height: 250px;
+}
+
+/* Otros estilos según tus preferencias */
+h3, p {
+  margin: 5px 0;
+}
+
+.container-article {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+}
+
+.article {
+  background-color: #aec1c0;
+  width: 40%;
+  border: 2px solid #d2de8f;
+  padding: 20px;
+  text-align: justify;
+  transition: transform 0.2s ease-in-out;
+}
+
+.article:hover {
+  transform: scale(1.05);
+}
+
+.buy-button {
+  background-color: #c19338;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+section {
+  padding: 20px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #c19338;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.comments {
+  margin-top: 10px;
+}
+
+.comment {
+  border: 1px solid #2ba712;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #1c1a1a;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.redes-sociales a {
+  color: #c19338;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.redes-sociales a:hover {
+  color: #ff0202; /* Cambia el color al pasar el mouse */
+}
+
+.areas-interes {
+  margin-top: 20px;
+}
+
+.areas-interes a {
+  color: #b36b1d;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.areas-interes a:hover {
+  color: #ff0000; /* Cambia el color al pasar el mouse */
+}
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+
+@media (max-width: 650px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .hamburguesa {
+    display: block;
+  }
+
+  .jumbotron {
+    padding: 50px 0;
+  }
+
+  .jumbotron h1 {
+    font-size: 1em;
+  }
+
+  .jumbotron h2 {
+    font-size: 1em;
+  }
+
+  .jumbotron p {
+    font-size: 1em;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .article {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+  .areas-interes,
+  .redes-sociales {
+      order: 0;
+      margin-top: 10px; /* Ajusta el espacio entre las dos secciones en pantallas pequeñas */
+      width: 100%;
+      text-align: center;
+  }
+
+}
